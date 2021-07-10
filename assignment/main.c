@@ -11,7 +11,7 @@ struct student
 }*head,*tail;
 
 void createList(int n); // function to create the list
-void Insert();//function to insert 
+void Insert_in_list();//function to insert 
 void displayList();         // function to display the list
 
 int main()
@@ -28,7 +28,7 @@ int main()
     else
     createList(n);
     
-    Insert();
+   Insert_in_list();
    
     printf("\n Data entered in the list : \n");
     displayList();
@@ -120,7 +120,7 @@ void createList(int n)
     }
 }
 
-void Insert()
+void Insert_in_list()
 {
 	int c,num,score,j,date[3];
   char name1[25];
